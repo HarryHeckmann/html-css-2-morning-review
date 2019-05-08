@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+}
+
+.header{
+    height: 10vh;
+    background-color: #252525;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    height: 7vh;
+}
+
+.header_button{
+    color: white;
+    background-color: #252525;
+    border: none;
+    font-size: 20px;
+    height: 6vh;
+}
+.header_button:hover{
+    border-bottom: 3px solid #26AAE2;
+}
+#blue{
+    background-color: #26AAE2;
+    border-radius: 5px;
+}
+
+#blue:hover{
+    background-color: white;
+    color: #26AAE2;
+    border-bottom: none;
+}
